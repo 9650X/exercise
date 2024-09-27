@@ -1,0 +1,20 @@
+Thu Sep 26 21:39:51 2024    profile_results.stats
+
+         2948 function calls (2942 primitive calls) in 0.162 seconds
+
+   Ordered by: cumulative time
+   List reduced from 51 to 10 due to restriction <10>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.155    0.155    0.162    0.162 E:/com/pythonProject/exercise/analy_need11.py:132(generate_and_write_expressions)
+        1    0.000    0.000    0.004    0.004 E:/com/pythonProject/exercise/analy_need11.py:98(generate_expressions)
+        2    0.003    0.001    0.003    0.001 {built-in method io.open}
+       10    0.000    0.000    0.002    0.000 E:/com/pythonProject/exercise/analy_need11.py:41(generate_expression)
+       10    0.000    0.000    0.002    0.000 E:/com/pythonProject/exercise/analy_need11.py:112(contains_negative_result)
+      141    0.001    0.000    0.001    0.000 G:\conda\envs\AIS\lib\fractions.py:84(__new__)
+       22    0.000    0.000    0.001    0.000 E:/com/pythonProject/exercise/analy_need11.py:84(calculate_expression)
+       75    0.000    0.000    0.001    0.000 G:\conda\envs\AIS\lib\fractions.py:374(forward)
+       42    0.000    0.000    0.001    0.000 E:/com/pythonProject/exercise/analy_need11.py:66(format_number)
+       39    0.000    0.000    0.001    0.000 E:/com/pythonProject/exercise/analy_need11.py:18(generate_number)
+
+

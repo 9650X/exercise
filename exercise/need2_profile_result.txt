@@ -1,0 +1,30 @@
+Fri Sep 27 13:28:43 2024    arithmetic_checking.profile
+
+         1237 function calls in 0.118 seconds
+
+   Ordered by: cumulative time
+   List reduced from 35 to 20 due to restriction <20>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.116    0.116    0.117    0.117 analy_need2.py:123(write_grades)
+        1    0.000    0.000    0.001    0.001 analy_need2.py:102(check_answers)
+        1    0.001    0.001    0.001    0.001 {built-in method io.open}
+       10    0.000    0.000    0.001    0.000 analy_need2.py:33(parse_expression)
+       55    0.000    0.000    0.001    0.000 analy_need2.py:6(parse_fraction)
+       10    0.000    0.000    0.000    0.000 analy_need2.py:85(calculate_expression)
+       31    0.000    0.000    0.000    0.000 fractions.py:374(forward)
+       86    0.000    0.000    0.000    0.000 fractions.py:84(__new__)
+       55    0.000    0.000    0.000    0.000 {built-in method builtins.all}
+       15    0.000    0.000    0.000    0.000 fractions.py:423(_div)
+       10    0.000    0.000    0.000    0.000 fractions.py:219(limit_denominator)
+      125    0.000    0.000    0.000    0.000 analy_need2.py:12(<genexpr>)
+        7    0.000    0.000    0.000    0.000 fractions.py:417(_mul)
+       45    0.000    0.000    0.000    0.000 {built-in method builtins.isinstance}
+        4    0.000    0.000    0.000    0.000 {built-in method builtins.print}
+        7    0.000    0.000    0.000    0.000 fractions.py:401(_add)
+      222    0.000    0.000    0.000    0.000 {method 'isdigit' of 'str' objects}
+       55    0.000    0.000    0.000    0.000 {method 'replace' of 'str' objects}
+       86    0.000    0.000    0.000    0.000 {built-in method __new__ of type object at 0x00007FFC6B958B30}
+       75    0.000    0.000    0.000    0.000 {method 'strip' of 'str' objects}
+
+
